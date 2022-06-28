@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".displayingContactFrag"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/img_contact"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/person"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_CName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Name"
+        android:layout_margin="5dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_CNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:layout_gravity="center" />
+
+</LinearLayout>
